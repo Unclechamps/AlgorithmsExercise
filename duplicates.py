@@ -11,9 +11,9 @@ list_of_names = userInput()
 
 def find_duplicate(list_of_names):
     unique_names = []
-    for i in list_of_names:
-        if i not in unique_names:
-            unique_names.append(i)
+    for name in list_of_names:
+        if name not in unique_names:
+            unique_names.append(name)
     print (unique_names)
 
 find_duplicate(list_of_names)
